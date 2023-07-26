@@ -43,43 +43,43 @@ CREATE TABLE donkey (
 );
 
 INSERT INTO cat (animal_name,commands, date_of_birth) VALUES 
-	('dfga', 'meow', '2021-01-01'),
-	('lfdsk', 'meow, stand', '2019-12-10'),
+    ('dfga', 'meow', '2021-01-01'),
+    ('lfdsk', 'meow, stand', '2019-12-10'),
     ('frsdf', 'meow, wlow', '2020-02-02'),
     ('dir', 'meow', '2022-03-03'),
     ('dsfkl', 'meow', '2018-05-05');
    
 INSERT INTO dog (animal_name,commands, date_of_birth) VALUES 
-	(',ask', 'flufy', '2021-01-01'),
-	('dskl', 'site', '2019-12-10'),
+    (',ask', 'flufy', '2021-01-01'),
+    ('dskl', 'site', '2019-12-10'),
     ('qwerty', 'left hand', '2020-02-02'),
     ('asdfg', 'right hand', '2022-03-03'),
     ('dfls', 'meow', '2018-05-05');
     
 INSERT INTO hamster (animal_name,commands, date_of_birth) VALUES 
-	('crack', 'eat', '2021-01-01'),
-	('jisus', 'eat', '2019-12-10'),
+    ('crack', 'eat', '2021-01-01'),
+    ('jisus', 'eat', '2019-12-10'),
     ('qwerty', 'left hand', '2020-02-02'),
     ('asdfg', 'right hand', '2022-03-03'),
     ('black', 'meow', '2018-05-05');
     
 INSERT INTO horse (animal_name,commands, date_of_birth) VALUES 
-	('igogo', 'eat', '2021-01-01'),
-	('igaga', 'eat', '2019-12-10'),
+    ('igogo', 'eat', '2021-01-01'),
+    ('igaga', 'eat', '2019-12-10'),
     ('ijoho', 'left hand', '2020-02-02'),
     ('jijij', 'right hand', '2022-03-03'),
     ('aoaoaa', 'meow', '2018-05-05');
     
 INSERT INTO camel (animal_name,commands, date_of_birth) VALUES 
-	('qwea', 'eat', '2021-01-01'),
-	('dsaf', 'eat', '2019-12-10'),
+    ('qwea', 'eat', '2021-01-01'),
+    ('dsaf', 'eat', '2019-12-10'),
     ('gfdsdf', 'left hand', '2020-02-02'),
     ('grwtw', 'right hand', '2022-03-03'),
     ('werqr', 'meow', '2018-05-05');
     
 INSERT INTO donkey (animal_name,commands, date_of_birth) VALUES 
-	('stup', 'eat', '2021-01-01'),
-	('tupi', 'eat', '2019-12-10'),
+    ('stup', 'eat', '2021-01-01'),
+    ('tupi', 'eat', '2019-12-10'),
     ('upid', 'left hand', '2020-02-02'),
     ('task', 'right hand', '2022-03-03'),
     ('done', 'meow', '2018-05-05');
