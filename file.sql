@@ -1,4 +1,4 @@
-USE peoplefriends;
+USE peopleFriends;
 
 CREATE TABLE cat (
 	id INT PRIMARY KEY AUTO_INCREMENT,
@@ -43,18 +43,18 @@ CREATE TABLE donkey (
 );
 
 INSERT INTO cat (animal_name,commands, date_of_birth) VALUES 
-	('barsik', 'meow', '2021-01-01'),
-	('kosh', 'meow, stand', '2019-12-10'),
-    ('frank', 'meow, wlow', '2020-02-02'),
+	('dfga', 'meow', '2021-01-01'),
+	('lfdsk', 'meow, stand', '2019-12-10'),
+    ('frsdf', 'meow, wlow', '2020-02-02'),
     ('dir', 'meow', '2022-03-03'),
-    ('krop', 'meow', '2018-05-05');
+    ('dsfkl', 'meow', '2018-05-05');
    
 INSERT INTO dog (animal_name,commands, date_of_birth) VALUES 
-	('wolf', 'flufy', '2021-01-01'),
-	('ralf', 'site', '2019-12-10'),
+	(',ask', 'flufy', '2021-01-01'),
+	('dskl', 'site', '2019-12-10'),
     ('qwerty', 'left hand', '2020-02-02'),
     ('asdfg', 'right hand', '2022-03-03'),
-    ('red', 'meow', '2018-05-05');
+    ('dfls', 'meow', '2018-05-05');
     
 INSERT INTO hamster (animal_name,commands, date_of_birth) VALUES 
 	('crack', 'eat', '2021-01-01'),
