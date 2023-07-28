@@ -4,28 +4,27 @@ cat > Pets
 cat > PackAnimals 
 cat PackAnimals Pets > humanFriends 
 cat humanFriends 
-mv humanFriends humanFriends2 
+mv humanFriends humanFriends2
+![image](https://github.com/ArseniyZub/FinalWork/assets/96389438/b9a0a1c7-8800-4543-b0f9-fab958943adf)
 
-2. Создать директорию, переместить файл туда.
+3. Создать директорию, переместить файл туда.
 mkdir test 
 mv humanFriends2 test/
 
-3. Подключить дополнительный репозиторий MySQL. Установить любой пакет из этого репозитория.
-sudo nano /etc/apt/sources.list.d/mysql.list
-  deb http://repo.mysql.com/apt/ubuntu/ focal main
-sudo apt update
-sudo apt install mysql-server
+4. Подключить дополнительный репозиторий MySQL. Установить любой пакет из этого репозитория.
+wget https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb
+sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb
 
-4. Установить и удалить deb-пакет с помощью dpkg.
+5. Установить и удалить deb-пакет с помощью dpkg.
 sudo dpkg - i mysql-connector-j_8.0.32-1ubuntu22.04_all.deb
 sudo dpkg -r mysql-connector-j
 sudo apt-get autoremove
 
-5. Выложить историю команд в терминале ubuntu.
+6. Выложить историю команд в терминале ubuntu.
 ![image](https://github.com/ArseniyZub/FinalWork/assets/96389438/fcb285bb-aa5a-4f5b-b214-43c2170f0208)
 ![image](https://github.com/ArseniyZub/FinalWork/assets/96389438/882e2e22-40ad-4866-8699-4fbf79b6b958)
 
-6. Нарисовать диаграмму, в которой есть класс родительский класс, домашние животные и вьючные животные, в составы которых в случае домашних животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные войдут: лошади, верблюды и ослы).
+7. Нарисовать диаграмму, в которой есть класс родительский класс, домашние животные и вьючные животные, в составы которых в случае домашних животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные войдут: лошади, верблюды и ослы).
    ![class_diagram](https://github.com/ArseniyZub/FinalWork/assets/96389438/4a97caa3-2447-42ae-bf7c-b7cf97563e21)
 8. В подключенном MySQL репозитории создать базу данных "Друзья человека"
 9. Создать таблицы с иерархией из диаграммы в БД.
