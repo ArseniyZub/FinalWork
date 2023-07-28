@@ -21,8 +21,9 @@ sudo dpkg -r mysql-connector-j
 sudo apt-get autoremove
 
 9. Выложить историю команд в терминале ubuntu.
-![image](https://github.com/ArseniyZub/FinalWork/assets/96389438/fcb285bb-aa5a-4f5b-b214-43c2170f0208)
-![image](https://github.com/ArseniyZub/FinalWork/assets/96389438/882e2e22-40ad-4866-8699-4fbf79b6b958)
+![image](https://github.com/ArseniyZub/FinalWork/assets/96389438/2169934d-7a67-4783-bb8a-76e7f27ead4b)
+![image](https://github.com/ArseniyZub/FinalWork/assets/96389438/b36fde04-7d11-4a02-b3f1-60f75d2a1f57)
+
 
 10. Нарисовать диаграмму, в которой есть класс родительский класс, домашние животные и вьючные животные, в составы которых в случае домашних животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные войдут: лошади, верблюды и ослы).
    ![class_diagram](https://github.com/ArseniyZub/FinalWork/assets/96389438/4a97caa3-2447-42ae-bf7c-b7cf97563e21)
