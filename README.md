@@ -1,11 +1,7 @@
 # FinalWork
 1. Используя команду cat, в терминале операционной системы Linux создать два файла Домашние животные (заполнив файл собаками, кошками, хомяками) и Вьючные животными (заполнив файл лошадьми, верблюдами и ослами), а затем объединить их. Просмотреть содержимое созданного файла. Переименовать файл, дав ему новое имя (Друзья человека).
-cat > Pets 
-cat > PackAnimals 
-cat PackAnimals Pets > humanFriends 
-cat humanFriends 
-mv humanFriends humanFriends2
 ![image](https://github.com/ArseniyZub/FinalWork/assets/96389438/b9a0a1c7-8800-4543-b0f9-fab958943adf)
+![image](https://github.com/ArseniyZub/FinalWork/assets/96389438/a6a9927d-d425-4428-82a9-9ee269e15997)
 
 3. Создать директорию, переместить файл туда.
 mkdir test 
