@@ -95,8 +95,8 @@ DROP TABLE donkey;
 RENAME TABLE horse TO horse_donkey;
 
 CREATE TABLE young_animal (
-	id INT PRIMARY KEY AUTO_INCREMENT,
-	animal_name CHAR(30),
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    animal_name CHAR(30),
     commands TEXT,
     date_of_birth DATE,
     age TEXT
